@@ -1,0 +1,76 @@
+[  192.316590] cmpe283_1: loading out-of-tree module taints kernel.
+[  192.323169] CMPE 283 Assignment 1 Module Start
+[  192.327776] Pinbased Controls MSR: 0x7f00000016
+[  192.332452]   EXTERNAL INTERRUPT EXITING: Can set=Yes, Can clear=Yes
+[  192.339133]   NMI EXITING: Can set=Yes, Can clear=Yes
+[  192.344356]   VIRTUAL NMIS: Can set=Yes, Can clear=Yes
+[  192.349641]   ACTIVATE VMX PREEMPTION TIMER: Can set=Yes, Can clear=Yes
+[  192.356591]   PROCESS POSTED INTERRUPTS: Can set=No, Can clear=Yes
+[  192.363083] Exit Controls MSR: 0x7fefff00036dff
+[  192.367773]   SAVE DEBUG CONTROLS: Can set=Yes, Can clear=No
+[  192.373672]   HOST ADDRESS SPACE SIZE: Can set=Yes, Can clear=Yes
+[  192.380031]   LOAD IA32_PERF_GLOBAL_CTRL: Can set=No, Can clear=Yes
+[  192.386624]   ACKNOWLEDGE INTERRUPT ON EXIT: Can set=Yes, Can clear=Yes
+[  192.393560]   SAVE IA32_PAT: Can set=Yes, Can clear=Yes
+[  192.399086]   LOAD IA32_PAT: Can set=Yes, Can clear=Yes
+[  192.404491]   SAVE IA32_EFER: Can set=Yes, Can clear=Yes
+[  192.410053]   LOAD IA32_EFER: Can set=Yes, Can clear=Yes
+[  192.415923]   SAVE VMX-PREEMPTION TIMER VALUE: Can set=Yes, Can clear=Yes
+[  192.423312]   CLEAR IA32_BNDCFGS: Can set=No, Can clear=Yes
+[  192.429348]   CONCEAL VM EXITS FROM INTEL PT: Can set=No, Can clear=Yes
+[  192.436481] Procbased Controls MSR: 0xfff9fffe0401e172
+[  192.442035]   INTERRUPT-WINDOW EXITING: Can set=Yes, Can clear=Yes
+[  192.448545]   USE TSC OFFSETTING: Can set=Yes, Can clear=Yes
+[  192.454653]   HLT EXITING: Can set=Yes, Can clear=Yes
+[  192.459907]   INVLPG EXITING: Can set=Yes, Can clear=Yes
+[  192.465535]   MWAIT EXITING: Can set=Yes, Can clear=Yes
+[  192.471171]   RDPMC EXITING: Can set=Yes, Can clear=Yes
+[  192.476537]   RDTSC EXITING: Can set=Yes, Can clear=Yes
+[  192.482058]   CR3-LOAD EXITING: Can set=Yes, Can clear=No
+[  192.487605]   CR3-STORE EXITING: Can set=Yes, Can clear=No
+[  192.493573]   CR8-LOAD EXITING: Can set=Yes, Can clear=Yes
+[  192.499821]   CR8-STORE EXITING: Can set=Yes, Can clear=Yes
+[  192.505785]   USE TPR SHADOW: Can set=Yes, Can clear=Yes
+[  192.512597]   NMI-WINDOW EXITING: Can set=Yes, Can clear=Yes
+[  192.518394]   MOV-DR EXITING: Can set=Yes, Can clear=Yes
+[  192.523914]   UNCONDITIONAL I/O EXITING: Can set=Yes, Can clear=Yes
+[  192.530577]   USE I/O BITMAPS: Can set=Yes, Can clear=Yes
+[  192.536540]   MONITOR TRAP FLAG: Can set=Yes, Can clear=Yes
+[  192.542434]   USE MSR BITMAPS: Can set=Yes, Can clear=Yes
+[  192.548260]   MONITOR EXITING: Can set=Yes, Can clear=Yes
+[  192.554240]   PAUSE EXITING: Can set=Yes, Can clear=Yes
+[  192.559795]   ACTIVATE SECONDARY CONTROLS: Can set=Yes, Can clear=Yes
+[  192.567172] Procbased secondary Controls MSR: 0x51ff00000000
+[  192.573181]   VIRTUALIZE APIC ACCESSES: Can set=Yes, Can clear=Yes
+[  192.579583]   ENABLE EPT: Can set=Yes, Can clear=Yes
+[  192.584861]   DESCRIPTOR-TABLE EXITING: Can set=Yes, Can clear=Yes
+[  192.591521]   ENABLE RDTSCP: Can set=Yes, Can clear=Yes
+[  192.596893]   VIRTUALIZE X2APIC MODE: Can set=Yes, Can clear=Yes
+[  192.603125]   ENABLE VPID: Can set=Yes, Can clear=Yes
+[  192.608405]   WBINVD EXITING: Can set=Yes, Can clear=Yes
+[  192.613842]   UNRESTRICTED GUEST: Can set=Yes, Can clear=Yes
+[  192.619711]   APIC-REGISTER VIRTUALIZATION: Can set=Yes, Can clear=Yes
+[  192.626733]   VIRTUAL-INTERRUPT DELIVERY: Can set=No, Can clear=Yes
+[  192.633323]   PAUSE-LOOP EXITING: Can set=No, Can clear=Yes
+[  192.639131]   RDRAND EXITING: Can set=No, Can clear=Yes
+[  192.644830]   ENABLE INVPCID: Can set=Yes, Can clear=Yes
+[  192.650347]   ENABLE VM FUNCTIONS: Can set=No, Can clear=Yes
+[  192.656333]   VMCS SHADOWING: Can set=Yes, Can clear=Yes
+[  192.661874]   ENABLE ENCLS EXITING: Can set=No, Can clear=Yes
+[  192.667858]   RDSEED EXITING: Can set=No, Can clear=Yes
+[  192.673388]   ENABLE PML: Can set=No, Can clear=Yes
+[  192.678435]   EPT-VIOLATION #VE: Can set=No, Can clear=Yes
+[  192.684131]   CONCEAL VMX NON ROOT OPERATION FROM INTEL PT: Can set=No, Can clear=Yes
+[  192.692458]   ENABLE XSAVES/XRSTORS: Can set=No, Can clear=Yes
+[  192.698414]   MODE-BASED EXECUTE CONTROL FOR EPT.: Can set=No, Can clear=Yes
+[  192.705606]   USE TSC SCALING: Can set=No, Can clear=Yes
+[  192.711504] Entry Controls MSR: 0xd3ff000011ff
+[  192.716261]   LOAD DEBUG CONTROLS: Can set=Yes, Can clear=No
+[  192.722497]   IA-32E MODE GUEST: Can set=Yes, Can clear=Yes
+[  192.728394]   ENTRY TO SMM: Can set=No, Can clear=Yes
+[  192.733694]   DEACTIVATE DUAL-MONITO TREATMENT: Can set=No, Can clear=Yes
+[  192.741162]   LOAD IA32_PERF_GLOBAL_CTRL: Can set=No, Can clear=Yes
+[  192.747853]   LOAD IA32_PAT: Can set=Yes, Can clear=Yes
+[  192.753502]   LOAD IA32_EFER: Can set=Yes, Can clear=Yes
+[  192.759061]   LOAD IA32_BNDCFGS: Can set=No, Can clear=Yes
+[  192.765131]   CONCEAL VM ENTRIES FROM INTEL PT: Can set=No, Can clear=Yes
